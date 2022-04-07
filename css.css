@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+/**{
+	box-sizing: border-box;
+}*/
+body{
+	background-color:#040212;
+margin: 0px
+}
+.heder{
+	background-image:url(
+	"Backgrund.png");
+	/*background-color: #F1F1F1;*/
+	/*padding: 20px;*/
+	text-aling: center;
+	color:white;
+}
+
+.button{
+	background-color: black;
+	border:none;
+	color: white;
+	padding:16px 32px;
+	text-aling: center;
+	text-decoration:none;
+	display: inline-block;
+	fonte-size:16px;
+	margin:4px 2px;
+	translation-duration: 0.4s;
+	cursor:pointer;
+	border-radius:12px;
+}
+.button1{
+	background-color:black;
+	color:white;
+	border: 2px solid hotpink;
+}
+.button1:hover{
+	background-color: hotpink;
+	color: white;
+}
+.rodap{
+	background-image: url("Backgrund.png");
+	padding:10px;
+	text-align:center;
+	color:white;
+	
+}
+.section{
+	background-image: url("Backgrund.png");
+	color:white;
+	width:30%;
+	padding:20px;
+	width:34%;
+}
+.dropbtn{
+	background-color: #4caf50;
+	color:white;
+	padding:16px;
+	font-size:16pX;
+	border:none;
+	cursor:pointer;
+}
+.dropdown{
+	position:relative;
+	display:inline-block;
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px RGBA(0,0,0,0.2);
+	z-index:1;
+}
+.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decorqation:none;
+	display:block;
+}
+.dropdown-content a:hover {Background-color:aqua}
+.dropdown:hover.dropbtn{
+	background-color:yellowgreen;
+}
